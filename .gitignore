@@ -3,3 +3,4 @@
 /bcg_churn_prediction.egg-info
 /bcgx_venv
 /data/*
+!/data/.gitkeep
