@@ -1,0 +1,23 @@
+[project]
+name = "bcg-churn-prediction"
+version = "0.1.0"
+description = "churn prediction for bcg x project"
+
+dependencies = [
+    "pandas>=2.2.3",
+    "numpy>=2.2.3",
+    "matplotlib>=3.10.0",
+    "xgboost>=2.1.4",
+    "scikit-learn>=1.6.1",
+    "ipykernel>=6.25.0",
+    "seaborn>=0.13.0"
+    ]
+
+requires-python = ">=3.12"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["data", "bcgx_venv"]  # Explicitly list your packages

@@ -1,0 +1,5 @@
+/venv
+/.ipynb_checkpoints
+/bcg_churn_prediction.egg-info
+/bcgx_venv
+/data/*
